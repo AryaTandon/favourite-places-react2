@@ -13,15 +13,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-layout  {
+  background-color: rgb(219, 248, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.App-header {  
+  background-color: rgba(174, 235, 250, 0.523);
+  width: 640px;
+  padding: 10px 11px;
+}
+
+.App-footer {
+  background-color: rgba(174, 235, 250, 0.523);
+  font-size: 18px;
+  width: 640px;
+  padding: 10px 11px;
 }
 
 .App-link {
@@ -36,3 +48,18 @@
     transform: rotate(360deg);
   }
 }
+
+.Place-card {
+  background-color: rgb(235, 251, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: black;
+  width: 500px;
+  padding: 0 80px;
+  /* border: 5px solid rgb(176, 237, 252); */
+  margin: 10px;
+}
+
